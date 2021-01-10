@@ -1,5 +1,7 @@
 package org.baeldung;
 
+import org.baeldung.core.MyClass;
+
 /**
  * Hello world!
  *
