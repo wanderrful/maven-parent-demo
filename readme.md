@@ -9,8 +9,7 @@ To run from root folder:
 Should output:
 
 ```
-Jan 10, 2021 7:30:10 PM com.wanderrful.App main
-INFO: hello from core!... and service!
+[com.wanderrful.App.main()] INFO com.wanderrful.App - hello from core!... and service!
 ```
 
 The Core Module contains the "hello from core!" and the Service Module adds the "... and service!" before serving the final result to the Web Module. 

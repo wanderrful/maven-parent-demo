@@ -1,7 +1,10 @@
 package com.wanderrful;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.wanderrful.service.MyService;
-import java.util.logging.Logger;
+
 
 /**
  * Hello world!
@@ -13,7 +16,8 @@ public class App
     {
         final MyService myService = new MyService();
 
-        final Logger logger = Logger.getLogger(App.class.toString());
+        Logger logger = LoggerFactory.getLogger(App.class);
+
         logger.info(myService.getMessage());
     }
 }
