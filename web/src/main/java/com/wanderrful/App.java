@@ -14,6 +14,6 @@ public class App
         final MyService myService = new MyService();
 
         final Logger logger = Logger.getLogger(App.class.toString());
-        logger.info( myService.getMessage() );
+        logger.info(myService.getMessage());
     }
 }
