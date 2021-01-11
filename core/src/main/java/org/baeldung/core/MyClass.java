@@ -1,5 +1,9 @@
 package org.baeldung.core;
 
 public class MyClass {
-    public final String message = "hello from core!";
+    public static final String MESSAGE = "hello from core!";
+
+    private MyClass() {
+        // Do nothing because this is a static class
+    }
 }
