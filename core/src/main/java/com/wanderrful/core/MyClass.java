@@ -1,4 +1,4 @@
-package org.baeldung.core;
+package com.wanderrful.core;
 
 public class MyClass {
     public static final String MESSAGE = "hello from core!";

@@ -1,4 +1,4 @@
-package org.baeldung;
+package com.wanderrful.service;
 
 import static org.junit.Assert.assertTrue;
 

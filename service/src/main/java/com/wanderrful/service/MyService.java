@@ -1,6 +1,6 @@
-package org.baeldung.service;
+package com.wanderrful.service;
 
-import org.baeldung.core.MyClass;
+import com.wanderrful.core.MyClass;
 
 public class MyService {
     public String getMessage() {

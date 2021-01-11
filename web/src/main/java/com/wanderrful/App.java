@@ -1,6 +1,6 @@
-package org.baeldung;
+package com.wanderrful;
 
-import org.baeldung.service.MyService;
+import com.wanderrful.service.MyService;
 import java.util.logging.Logger;
 
 /**
@@ -11,10 +11,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        MyService myService = new MyService();
+        final MyService myService = new MyService();
 
-        Logger logger = Logger.getLogger(App.class.toString());
-
+        final Logger logger = Logger.getLogger(App.class.toString());
         logger.info( myService.getMessage() );
     }
 }
