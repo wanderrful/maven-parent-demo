@@ -4,7 +4,7 @@ import kotlin.jvm.JvmStatic
 
 import org.slf4j.LoggerFactory
 
-import com.wanderrful.service.MyService
+import com.wanderrful.helpers.AppHelper
 
 /**
  * Hello world!
@@ -13,8 +13,9 @@ import com.wanderrful.service.MyService
 object App {
     @JvmStatic
     fun main(args: Array<String>) {
-        val myService = MyService()
+        val appHelper = AppHelper()
+
         val logger = LoggerFactory.getLogger(App::class.java)
-        logger.info(myService.message)
+        logger.info(appHelper.retrieveBaseMessage())
     }
 }
