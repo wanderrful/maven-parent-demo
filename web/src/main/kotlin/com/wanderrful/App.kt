@@ -1,23 +1,20 @@
-package com.wanderrful;
+package com.wanderrful
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import kotlin.jvm.JvmStatic
 
-import com.wanderrful.service.MyService;
+import org.slf4j.LoggerFactory
 
+import com.wanderrful.service.MyService
 
 /**
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        final MyService myService = new MyService();
-
-        Logger logger = LoggerFactory.getLogger(App.class);
-
-        logger.info(myService.getMessage());
+object App {
+    @JvmStatic
+    fun main(args: Array<String>) {
+        val myService = MyService()
+        val logger = LoggerFactory.getLogger(App::class.java)
+        logger.info(myService.message)
     }
 }
