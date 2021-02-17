@@ -8,7 +8,6 @@ import com.wanderrful.helpers.AppHelper
 
 /**
  * Hello world!
- *
  */
 object App {
     @JvmStatic

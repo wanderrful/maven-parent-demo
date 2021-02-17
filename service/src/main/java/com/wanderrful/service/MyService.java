@@ -5,6 +5,9 @@ import org.slf4j.LoggerFactory;
 
 import com.wanderrful.core.MyClass;
 
+/**
+ * Simple logging demonstration
+ */
 public class MyService {
     Logger logger = LoggerFactory.getLogger(MyService.class);
 
