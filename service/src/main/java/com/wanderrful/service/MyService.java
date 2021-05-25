@@ -13,6 +13,7 @@ public class MyService {
 
     public String getMessage() {
         logger.info("MyService::getMessage ENTRY");
+
         return MyClass.MESSAGE + "... and service!";
     }
 }

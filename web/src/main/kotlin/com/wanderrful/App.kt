@@ -15,6 +15,10 @@ object App {
         val appHelper = AppHelper()
 
         val logger = LoggerFactory.getLogger(App::class.java)
-        logger.info(appHelper.retrieveBaseMessage())
+        logger.info(appHelper.retrieve())
     }
+}
+
+fun AppHelper.retrieve(): String {
+    return this.retrieveBaseMessage()
 }
